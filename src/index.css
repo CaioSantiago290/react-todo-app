@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  background-color: #ffffff !important;
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html.dark, body.dark {
+  background-color: #1f1f1f !important;
+}
+
+#root {
+  background-color: inherit !important;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Estilos responsivos adicionais */
+@media (max-width: 640px) {
+  .max-w-sm {
+    max-width: 100%;
+  }
+}
