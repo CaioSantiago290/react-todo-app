@@ -1,0 +1,50 @@
+To-Do List
+
+Description
+A responsive web application for managing daily tasks with a sleek interface and local persistence. Users can add, mark as complete, and delete tasks, with the option to switch between light and dark themes. Perfect for organizing your day efficiently!
+Technologies Used
+
+React 19: Library for building reusable UI components (note: using experimental 19.1.1 in this project).
+Tailwind CSS: Framework for fast and responsive styling.
+Vite: Lightweight build tool and development server.
+TypeScript: Adds static typing for robust code.
+ESLint: Linting tool to maintain code quality and consistency.
+
+How to Run the Project Locally
+Follow these steps to run the project on your local machine:
+
+Clone the repository:
+git clone https://github.com/your-username/react-todo-app.git
+
+(Replace your-username/react-todo-app with your actual repository URL.)
+
+Navigate to the project directory:
+cd react-todo-app
+
+
+Install dependencies:
+npm install
+
+
+Start the development server:
+npm run dev
+
+
+Open in your browser:
+
+Visit the URL provided in the terminal (typically http://localhost:5173) and start using your To-Do List!
+
+
+
+Features
+
+Add new tasks.
+Mark tasks as completed.
+Delete tasks.
+Filter tasks (all, completed, pending).
+Switch between light and dark themes.
+Responsive design for mobile, tablet, and desktop.
+Task persistence using localStorage.
+
+Contributions
+Feel free to open issues or pull requests for suggestions or improvements!
